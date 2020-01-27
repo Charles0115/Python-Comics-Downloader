@@ -1,0 +1,2 @@
+Notices that user has to have Chrome installed and Version updated.
+This is for the chromedriver.exe to work.

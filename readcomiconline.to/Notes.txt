@@ -1,0 +1,15 @@
+Search_List_Downloader
+USER INPUT:
+1. location of the comics (folder to be downloaded)
+2. String in the search bar (%20 is space bar)
+3. Initial position and final position.
+    a. Two boxes, one is "Start", one is "End".
+    b. If user doesn't specify both, then it means all comics displayed. That is, if user lets both boxes empty.
+    c. If user specifies "Start" and leaves "End" blank, it means to download from the "Start" specified to the end of the list.
+    d. If user specifies "End" and leaves "Start" blank, it means to download from the first one in the list to the "End" specified.
+    e. If user specifies both "Start" and "End", it means to download from the "Start" specified to "End" specified.
+    IMPORTANT: Be very careful on the slice. We may need some modifications. Count the first one as "0".
+4. If anything wrong happened (Ex. internet gone down, no connection, robot detection, etc), will the program inform the user?
+5. If the program shuts down improperly, program will return the current state (that is, which comics in the list, which issue, which page).
+   The user do not have to anything since if the user reruns the program, it will overwrites the unfinished files.
+6. WebDriverWait waiting time.
